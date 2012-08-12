@@ -14,7 +14,7 @@
    limitations under the License.
  */
 
-package fi.harism.lucidchat;
+package fi.harism.lucidchat.client;
 
 import java.util.Collections;
 import java.util.Comparator;
@@ -36,7 +36,13 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import fi.harism.lucidchat.IChatService.Stub;
+import fi.harism.lucidchat.R;
+import fi.harism.lucidchat.common.ChatConversation;
+import fi.harism.lucidchat.common.ChatMessage;
+import fi.harism.lucidchat.common.ChatUtils;
+import fi.harism.lucidchat.service.ChatService;
+import fi.harism.lucidchat.service.IChatService;
+import fi.harism.lucidchat.service.IChatService.Stub;
 
 public class ChatActivity extends Activity {
 

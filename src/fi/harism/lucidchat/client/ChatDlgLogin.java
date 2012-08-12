@@ -14,7 +14,7 @@
    limitations under the License.
  */
 
-package fi.harism.lucidchat;
+package fi.harism.lucidchat.client;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -22,6 +22,7 @@ import android.content.DialogInterface;
 import android.view.View;
 import android.view.Window;
 import android.widget.EditText;
+import fi.harism.lucidchat.R;
 
 public class ChatDlgLogin extends Dialog implements
 		DialogInterface.OnCancelListener, View.OnClickListener {

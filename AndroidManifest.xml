@@ -12,7 +12,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
         <activity
-            android:name=".ChatActivity"
+            android:name=".client.ChatActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".ChatService" >
+        <service android:name=".service.ChatService" >
         </service>
     </application>
 

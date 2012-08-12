@@ -1,4 +1,4 @@
-package fi.harism.lucidchat;
+package fi.harism.lucidchat.client;
 
 import java.util.Vector;
 

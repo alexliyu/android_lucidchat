@@ -14,7 +14,7 @@
    limitations under the License.
  */
 
-package fi.harism.lucidchat;
+package fi.harism.lucidchat.client;
 
 import java.util.Calendar;
 
@@ -27,6 +27,7 @@ import android.text.style.URLSpan;
 import android.text.util.Linkify;
 import android.util.AttributeSet;
 import android.widget.TextView;
+import fi.harism.lucidchat.common.ChatMessage;
 
 /**
  * Class for representing one line of text in a chat.

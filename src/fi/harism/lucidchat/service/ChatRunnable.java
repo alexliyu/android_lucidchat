@@ -14,7 +14,7 @@
    limitations under the License.
  */
 
-package fi.harism.lucidchat;
+package fi.harism.lucidchat.service;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

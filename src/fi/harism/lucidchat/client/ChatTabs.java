@@ -1,4 +1,4 @@
-package fi.harism.lucidchat;
+package fi.harism.lucidchat.client;
 
 import android.content.Context;
 import android.text.SpannableString;
@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.HorizontalScrollView;
 import android.widget.TextView.BufferType;
+import fi.harism.lucidchat.R;
 
 public class ChatTabs extends HorizontalScrollView {
 

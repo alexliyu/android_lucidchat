@@ -14,7 +14,7 @@
    limitations under the License.
  */
 
-package fi.harism.lucidchat;
+package fi.harism.lucidchat.service;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -26,6 +26,11 @@ import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
 import android.util.Log;
+import fi.harism.lucidchat.R;
+import fi.harism.lucidchat.client.ChatActivity;
+import fi.harism.lucidchat.common.ChatConversation;
+import fi.harism.lucidchat.common.ChatMessage;
+import fi.harism.lucidchat.common.ChatUtils;
 
 public class ChatService extends Service {
 
@@ -281,7 +286,7 @@ public class ChatService extends Service {
 				if (!msg.mFrom.isEmpty() && msg.mConversationId.equals(mNick)) {
 					msg.mConversationId = msg.mFrom;
 				}
-				if (msg.mConversationId.equals("*")
+				else if (msg.mConversationId.equals("*")
 						|| msg.mConversationId.equals(mHost)
 						|| msg.mConversationId.equals(mNick)) {
 					msg.mConversationId = "";

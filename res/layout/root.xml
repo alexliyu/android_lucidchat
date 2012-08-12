@@ -7,7 +7,7 @@
 
     <include layout="@layout/root_footer" />
 
-    <fi.harism.lucidchat.ChatFlipView
+    <fi.harism.lucidchat.client.ChatFlipView
         android:id="@+id/root_flipview"
         style="@style/content"
         android:layout_width="match_parent"

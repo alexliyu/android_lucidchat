@@ -1,4 +1,4 @@
-package fi.harism.lucidchat;
+package fi.harism.lucidchat.client;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
+import fi.harism.lucidchat.R;
 
 public class ChatView extends RelativeLayout {
 
